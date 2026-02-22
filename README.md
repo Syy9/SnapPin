@@ -5,9 +5,8 @@
 > [!NOTE]
 > このプロジェクトは [Claude Code](https://claude.ai/code) を使ったバイブコーディングで作られています。
 > 
-![macOS](https://img.shields.io/badge/macOS-14%2B-blue)
-![Swift](https://img.shields.io/badge/Swift-5.9-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
+
+<img src="docs/preview.gif" width="300" alt="App Demo">
 
 ## 機能
 
