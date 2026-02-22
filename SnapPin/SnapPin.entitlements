@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- App Sandbox を有効にする -->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+
+	<!--
+	  CGWindowListCreateImage / CGPreflightScreenCaptureAccess を
+	  サンドボックス内から使うために必要。
+	  これがないとサンドボックス環境では権限チェックが常に false を返す。
+	-->
+	<key>com.apple.security.device.screencapture</key>
+	<true/>
+</dict>
+</plist>
